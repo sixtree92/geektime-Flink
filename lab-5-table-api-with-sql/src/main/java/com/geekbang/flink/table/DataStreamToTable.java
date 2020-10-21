@@ -13,9 +13,7 @@ import org.apache.flink.table.api.Tumble;
 import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 import org.apache.flink.types.Row;
 
-/**
- * Created by Onizuka on 2019/9/11
- */
+
 public class DataStreamToTable {
 
     public static void main(String args[]) throws Exception {

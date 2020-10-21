@@ -9,9 +9,7 @@ import org.apache.flink.table.api.bridge.java.StreamTableEnvironment;
 import org.apache.flink.table.descriptors.*;
 import org.apache.flink.table.sinks.CsvTableSink;
 
-/**
- * Created by Onizuka on 2019/8/6
- */
+
 public class KafkaTableConnector {
 
     public static void main(String args[]) throws Exception {

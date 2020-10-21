@@ -13,9 +13,7 @@ import org.apache.flink.types.Row;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Onizuka on 2019/9/10
- */
+
 public class TableToDataStream {
     public static void main(String args[]) {
         ParameterTool params = ParameterTool.fromArgs(args);

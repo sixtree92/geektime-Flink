@@ -20,9 +20,7 @@ import org.apache.flink.types.Row;
 import java.io.PrintStream;
 import java.util.concurrent.TimeUnit;
 
-/**
- * Created by Onizuka on 2019/8/24
- */
+
 public class TumbleWindow {
     public static void main(String args[]) throws Exception {
 
