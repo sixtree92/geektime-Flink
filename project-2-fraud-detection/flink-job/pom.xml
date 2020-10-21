@@ -83,6 +83,12 @@
             <artifactId>google-cloud-pubsub</artifactId>
             <version>1.108.4</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.flink</groupId>
+            <artifactId>flink-streaming-java_2.11</artifactId>
+            <version>1.11.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
     <build>
