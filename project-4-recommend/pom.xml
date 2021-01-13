@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.geekbang.flink</groupId>
-    <artifactId>geektime-flink</artifactId>
+    <artifactId>project-4-recommend</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -14,16 +14,8 @@
         <scala.binary.version>2.11</scala.binary.version>
     </properties>
     <modules>
-        <module>lab-3-datastream-api</module>
-        <module>lab-4-stateful-compute</module>
-        <module>lab-5-table-api-with-sql</module>
-        <module>lab-6-flink-runtime</module>
-        <module>lab-7-alink-project</module>
-        <module>project-1-pv-uv-computing</module>
-        <module>project-2-fraud-detection</module>
-        <module>project-2-fraud-detection/webapp</module>
-        <module>project-3-table-and-sql</module>
-        <module>project-4-recommend</module>
+        <module>recommend-backend</module>
+        <module>recommend-flink-job</module>
     </modules>
 
 </project>
